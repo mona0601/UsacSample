@@ -74,6 +74,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animal\Animal.vb" />
+    <Compile Include="Animal\Pomeranian.vb" />
+    <Compile Include="Animal\Pig.vb" />
+    <Compile Include="Animal\Cat.vb" />
+    <Compile Include="Animal\Dog.vb" />
+    <Compile Include="Animal\IAnimal.vb" />
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
@@ -135,6 +141,12 @@
     <Compile Include="SampleForm3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SampleForm4.Designer.vb">
+      <DependentUpon>SampleForm4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SampleForm4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="WeekDay.vb" />
     <Compile Include="RefSample.vb" />
     <Compile Include="SampleOne.vb" />
@@ -158,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SampleForm3.resx">
       <DependentUpon>SampleForm3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SampleForm4.resx">
+      <DependentUpon>SampleForm4.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
