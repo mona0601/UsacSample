@@ -12,7 +12,7 @@
         End If
 
         'メイン画面の表示
-        Dim frm As New SampleForm3
+        Dim frm As New SampleForm4
         Application.Run(frm)
 
         '-----
